@@ -187,3 +187,17 @@ left: initial;
     text-align: center;
 
  }
+
+ @media (min-width: 700px) {
+
+    :root {
+        --bg-url: url(./assets/light-desktop.jpg) 
+
+    }
+
+    .dark {
+
+        --bg-url: url(./assets/dark-desktop.jpg) 
+
+    }
+ } 
